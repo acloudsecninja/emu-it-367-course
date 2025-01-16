@@ -12,7 +12,8 @@ login_manager.login_view = 'login'
 
 # User database (for demonstration, using a dictionary)
 users = {
-    'testuser': {'password': 'password123'}
+    'brendan': {'password': 'brendan2026'}
+    
 }
 
 # User class
@@ -59,4 +60,4 @@ def logout():
     return redirect(url_for('home'))
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port = 5005)
