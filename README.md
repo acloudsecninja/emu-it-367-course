@@ -1,9 +1,19 @@
-## Eastern Michigan University - IT367 Course Labs
+# Eastern Michigan University - IT-367 - Number Guessing Game with Flask
 
-- This Repo will hold the lab information (but not directions or outcomes) for IT367 Course at Eastern Michigan University
+A simple Flask-based number guessing game where the user tries to guess a randomly generated number.
+
+## Setup Instructions
+
+1. run the command:
+```bash
+pip install -r requirements.txt
+```
+2. Run the following command to be able to open a browser to see the game in action! http://127.0.0.1:5000
+```bash
+python app.py
+```
+3. You should have no errors in the startup process and if you do you must still have troubleshooting to do!
+
+Note: This code has issues in it so that will be part of the problem to find out why its not working.
 
 - acloudsecninja - Professor Weber
-
-- Created and Maintained by - A Cloud Security Ninja LLC - 
-
-- For Information contact us at @ (https://www.acloudsec.ninja/booking-calendar/free-15-minute-consultation)
